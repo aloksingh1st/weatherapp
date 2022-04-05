@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    {{>navbar}}
+
+    <div class="main_container">
+        <div class="text_container">
+            <h2>Welcome to <span> weather </span>app.</h2>
+             <a href="/weather" class="cta_button">Get Started</a>
+        </div>
+
+
+<div id="carouselExampleControls" class="carousel slide carousel_container" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/3366845.jpg" class="w-10" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/20945178.jpg" class="w-10" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/3324647.jpg" class="w-10" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+    {{>footer}}
+</body>
+</html>
